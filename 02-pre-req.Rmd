@@ -1,0 +1,39 @@
+# Pre-Requisites {#pre-req}
+
+
+## Essential 
+
+
+### Install R from The Comprehensive R Archive Network
+
+
+
+1. Install a pre-compiled binary of R for your OS from here:  
+    <https://cloud.r-project.org>  
+    If you already have R installed, then Check your current version like so:
+    ```{r}
+    R.version.string
+    ```
+
+
+### Install RStudio Desktop 
+
+
+1. Install RStudio Desktop.  
+   If you do not already have RStudio installed, then download it here:  
+    <https://www.rstudio.com/products/rstudio/download/#download>
+    
+    
+### Update your R packages
+
+1. Update your R packages:
+    ```{r, eval = FALSE}
+    update.packages(ask = FALSE, checkBuilt = TRUE)
+    ```
+
+
+
+
+## Recommended
+
+
